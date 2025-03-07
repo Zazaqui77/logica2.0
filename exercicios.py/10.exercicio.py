@@ -30,6 +30,5 @@ match opcao:
     case _:
         Prato= "Opção inválida"
 print()
-print(f"Prato:{prato}")
-print(f"valor: R$ {valor:.2f}")
-    
+print(f"Prato:{Prato}")
+print(f"valor: R$ {Valor:.2f}")
