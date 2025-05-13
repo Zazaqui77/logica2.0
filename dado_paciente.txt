@@ -1,0 +1,6 @@
+Nome: isaac
+Idade: 18
+
+Nome: josias
+Idade: 23
+

@@ -32,7 +32,7 @@ for i in range(QUANTIDADE_DE_CARROS):
     listas_carros.append(carro)
 
 print("\n=DADOS DOS CARROS=")
-for carro in listas_carros:
+for i, in enumerate(listas_carros, star=1):
     print(f"Marca: {carro.marca}")
     print(f"Modelo: {carro.modelo}")
     print(f"Preço: R${carro.preco:.2f}")
