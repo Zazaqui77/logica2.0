@@ -19,12 +19,10 @@ class Cliente:
 # Listas para armazenar os dados
 lista_funcionario = []
 lista_cliente = []
-QUANTIDADE_DE_FUNCIONARIOS = 3
-QUANTIDADE_DE_CLIENTES = 3
 
 # Coleta de dados de Funcionários
 print("Informe os dados do funcionario")
-for i in range(QUANTIDADE_DE_FUNCIONARIOS):
+for i in range(3):
     funcionario = Funcionario(
         nome=input("Digite seu nome: "),
         data_admissao=input("Digite a sua data de admissão: "),
@@ -35,7 +33,7 @@ for i in range(QUANTIDADE_DE_FUNCIONARIOS):
     print()
 
 # Coleta de dados de Clientes
-for i in range(QUANTIDADE_DE_CLIENTES):
+for i in range(3):
     cliente = Cliente(
         nome=input("Digite seu nome: "),
         data_nascimento=input("Digite sua data de nascimento: "),
